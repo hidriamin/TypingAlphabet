@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Satisfy&display=swap');
+
+.highlight {
+    background-color: #00ADB5;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+
+.letter {
+
+    color: #EEEEEE;
+    font-family: 'Lato', sans-serif;
+    padding: 1rem;
+
+}
+
+#letters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#box {
+
+    font-family: 'Lato', sans-serif;
+
+    background-color:
+
+        #393E46;
+
+    text-align: center;
+
+    width: 30vw;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+}
+
+.error {
+    background-color: coral;
+    border: red;
+}
+
+h1 {
+    color: #EEEEEE;
+    font-family: 'Satisfy', sans-serif;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222831;
+    margin: 0;
+    max-height: 100vh;
+}
+
+#text {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+#start {
+    font-family: 'Lato', sans-serif;
+    background-color: #00ADB5;
+    border: none;
+    color: #EEEEEE;
+    padding: 10px;
+    margin: 2rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#input-box {
+    border-radius: 8px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+#zone {
+
+    display: flex;
+    align-items: center;
+}
+
+#message {
+    font-family: 'Lato', sans-serif;
+    color: #00ADB5;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.credits {
+    padding-top: 290px;
+    padding-bottom: 5px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    min-height: 50px;
+    margin-top: auto;
+}
